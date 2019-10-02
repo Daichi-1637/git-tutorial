@@ -1,6 +1,6 @@
 #! /usr/bin/env ruby
 
-100.each{|i|
+(1..100).each{|i|
 	if i%15==0
 		puts "FIZZ BUZZ !"
 	elsif i%3==0
