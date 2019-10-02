@@ -7,6 +7,8 @@
 		puts "FIZZ !"
 	elsif i%5==0
 		puts "BUZZ !"
+	elsif i%7==0
+		puts "GIT !"
 	else
 		puts i
 	end
